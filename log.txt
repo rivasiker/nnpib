@@ -1,0 +1,5 @@
+16/09/19 (w 38)
+  - fix broken symlink.
+  - create new environment: nnpib.
+  - install pytorch and pybigwig in nnpib.
+  - create directory project_nnpib for my results.
