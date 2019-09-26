@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "chr22.py", line 12, in <module>
+    writer = csv.writer(f)
+NameError: name 'csv' is not defined
