@@ -18,6 +18,6 @@ for chrom in names:
 	data = bw.values(chrom, 0, bw.chroms(chrom))
 
 	with open('data/'+chrom + '.csv', 'w') as f:
-    	writer = csv.writer(f)
-    	writer.writerows(zip(data, index))
+		writer = csv.writer(f)
+		writer.writerows(zip(data, index))
 
